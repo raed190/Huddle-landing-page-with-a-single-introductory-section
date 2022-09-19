@@ -3,7 +3,6 @@
   --Violet: hsl(257, 40%, 49%);
   --Soft-Magenta: hsl(300, 69%, 71%);
   --font-size: 1.125rem;
-  --padding-section: 15rem;
 }
 
 /* ===== Start Rest =====*/
@@ -62,6 +61,7 @@ header {
 }
 
 header .logo img {
+  width: 200px;
   padding-top: 4rem;
 }
 
@@ -131,7 +131,7 @@ header .social-icon ul li {
   margin-left: 1rem;
   transition: all 0.4s;
   cursor: pointer;
-  margin-top: -1.5rem;
+  margin-top: -3rem;
 }
 header .social-icon ul li i {
   color: #fff;
